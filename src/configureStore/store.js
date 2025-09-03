@@ -1,5 +1,5 @@
-import {createStore} from "../redux/createStore.js";
 import {accountReducer} from "../reducer/accountReducer.js";
+import {createStore} from "redux";
 
 const initialStore = {
     balance: 0
