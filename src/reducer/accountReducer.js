@@ -8,8 +8,12 @@ export const accountReducer = (state, action) => {
             return {
                 ...state, balance: state.balance >= action.payload ?
                     state.balance - action.payload : state.balance
+
+
             };
+
         default:
             return state;
     }
-}
+
+};
